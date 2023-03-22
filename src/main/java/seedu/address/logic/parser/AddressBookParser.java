@@ -23,16 +23,16 @@ import seedu.address.logic.commands.RevertAllCommand;
 import seedu.address.logic.commands.RevertCommand;
 import seedu.address.logic.commands.task.FindTaskCommand;
 import seedu.address.logic.commands.task.ListTaskCommand;
+import seedu.address.logic.commands.task.note.AddNoteCommand;
 import seedu.address.logic.commands.task.note.ClearNoteCommand;
 import seedu.address.logic.commands.task.note.DeleteNoteCommand;
 import seedu.address.logic.commands.task.note.ListNoteCommand;
-import seedu.address.logic.commands.task.note.AddNoteCommand;
+import seedu.address.logic.commands.task.todo.AddTodoCommand;
 import seedu.address.logic.commands.task.todo.ClearTodoCommand;
 import seedu.address.logic.commands.task.todo.DeleteTodoCommand;
 import seedu.address.logic.commands.task.todo.EditDeadlineCommand;
 import seedu.address.logic.commands.task.todo.EditNoteContentCommand;
 import seedu.address.logic.commands.task.todo.ListTodoCommand;
-import seedu.address.logic.commands.task.todo.AddTodoCommand;
 import seedu.address.logic.parser.exceptions.ParseException;
 import seedu.address.logic.parser.task.TaskParser;
 
